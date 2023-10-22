@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* :root {
+    --bg-color:#1EA7D1;
+} */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+#warna {
+  background-color: #1ea7d1;
+}
+#font-general {
+  font-size: 14px;
+}
+
+#font-card-detail {
+  font-size: 12px;
+}
+.font-footer {
+  font-size: 12px;
+}
+#warna-card {
+  background-color: #b4e1ef;
+}
+.vertical-text {
+  /*  writing-mode: vertical-lr; /* Mengatur teks vertikal dari kiri ke kanan */
+  /* text-orientation: sideways; /* Mengatur orientasi teks menjadi miring */
+  /* transform: rotate(180deg); /* Memutar teks 180 derajat untuk memulai dari bawah*/
+  /* transform-origin: left bottom; /* Mengatur titik rotasi di kiri bawah */
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
+  transform: rotate(180deg);
+  transform-origin: left bottom;
+  transform-origin: center;
+}
+.ditambahkan {
+  margin-left: -12px;
+  /* padding: 28px 0; */
+}
+
+/* .scroll-video::-webkit-scrollbar {
+  display: none;
+} */
+.scroll-video::-webkit-scrollbar {
+  transition: background-color 0.5s;
+  width: 10px;
+  height: 10px;
+}
+
+.scroll-video::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 10px;
+}
+.scroll-video::-webkit-scrollbar-thumb:hover {
+  background-color: #e8f4ff;
+  border-radius: 10px;
+}
+
+#card-detail-video {
+  background: rgb(30, 167, 209);
+  background: linear-gradient(
+    180deg,
+    rgba(30, 167, 209, 1) 31%,
+    rgba(30, 167, 209, 0.5382528011204482) 70%
+  );
+}
+
+.text-blue {
+  position: relative;
+  background: linear-gradient(to bottom, #044a5f, #00c3ff);
+  transform: rotate(-90deg);
+  /* transform-origin: left bottom; */
+  width: 250px;
+  flex-shrink: 0;
+  padding: 5px;
+  border-radius: 10px 10px 0 0;
+  top: 103px;
+  right: 153px;
+}
+.rotated-text {
+  flex-shrink: 0;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .text-blue {
+    width: 210px;
+    top: 87px;
+    right: 130px;
+  }
+  .rotated-text {
+    flex-shrink: 0;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+@media (max-width: 990px) {
+  .text-blue {
+    width: 300px;
+    top: 131px;
+    right: 175px;
+  }
+  .rotated-text {
+    flex-shrink: 0;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .text-blue {
+    width: 230px;
+    top: 98px;
+    right: 140px;
+  }
+  .rotated-text {
+    flex-shrink: 0;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .text-blue {
+    width: 230px;
+    top: -35px;
+    left: 130px;
+    transform: none;
+  }
+  .rotated-text {
+    flex-shrink: 0;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+#button-tonton {
+  background-color: #5fbfce;
+  font-size: 12px;
+}
+#button-unduh {
+  background-color: #ffffff;
+  font-size: 12px;
+  color: #5fbfce;
+}
+
+footer {
+  /* padding: 50px 30px 30px 30px; */
+  background: rgb(25, 155, 213);
+  background: linear-gradient(
+    129deg,
+    rgba(25, 155, 213, 1) 31%,
+    rgba(163, 225, 198, 1) 70%
+  );
+}
